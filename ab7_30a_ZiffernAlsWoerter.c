@@ -72,14 +72,14 @@ int main(void)
     while (zahl > 0)
     {
         ziffer = zahl % 10;
-        words[i] = ziffer;
+        wörter[i] = ziffer;
         i++;
         zahl /= 10;
     }
 
     for (int j = i - 1; j >= 0; j--)
     {
-        wort(words[j]);
+        wort(wörter[j]);
     }
 
     return 0;
