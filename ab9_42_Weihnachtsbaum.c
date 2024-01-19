@@ -1,3 +1,5 @@
+//get a size from the user (at least 3)
+//print a christmastree in that size
 #include <stdio.h>
 
 int main(void)
