@@ -32,7 +32,7 @@ int main(void)
         {
             printf("%c", space);
         }
-
+        
         if (i != 1)
         {
             printf("*");
